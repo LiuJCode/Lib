@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="site_url">
+        <!--建议使用IP地址，减少域名解析时-->
+        <item>www.duojiao.tv</item>
+        <item>api.php</item>
+        <!--api_version   版本号  当前为 4.5.0  默认为 系统版4.5.0-->
+        <item>4.5.0</item>
+    </string-array>
+
+    <string-array name="protocol">
+        <!--网络协议 http / https-->
+        <item>http</item>
+    </string-array>
+
+</resources>

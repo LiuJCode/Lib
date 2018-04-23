@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="please_wait">请稍后...</string>
+    <string name="searching">搜索中...</string>
+    <!-- Error View -->
+    <string name="error_view_click_to_refresh">点击屏幕,重新加载</string>
+    <string name="error_view_no_data">毛都没有一根啊~</string>
+    <string name="error_view_loading">加载中...</string>
+    <string name="error_view_load_error_click_to_refresh">扎心了!网络不给力~</string>
+    <string name="error_view_network_error_click_to_refresh">没有可用的网络</string>
+
+    <style name="myDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--   <item name="android:background">@android:color/transparent</item> -->
+        <item name="android:windowBackground">@drawable/progress_dialog_bg</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

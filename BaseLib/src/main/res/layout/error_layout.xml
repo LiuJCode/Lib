@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pageerrLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="50dp">
+
+
+        <ImageView
+            android:id="@+id/iv_error_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            android:src="@drawable/duojiao_empty_data" />
+
+
+        <TextView
+            android:id="@+id/tv_error_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:lines="2"
+            android:text="暂无数据~"
+            android:textColor="#666666"
+            android:textSize="13sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_click"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="100dip"
+            android:layout_height="35dip"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/duojiao_collect_del_button"
+            android:text="回到上一页"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <ProgressBar
+            android:id="@+id/animProgress"
+            style="@style/loading"
+            android:layout_width="18dip"
+            android:layout_height="18dip"
+            android:layout_marginTop="10dip"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+</RelativeLayout>
