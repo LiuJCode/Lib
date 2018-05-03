@@ -19,7 +19,7 @@
         android:text="Hello World!" />
 
     <Button
-        android:id="@+id/btn_get"
+        android:id="@+id/btn_RxFlowable"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -27,18 +27,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:text="Get" />
+        android:text="RxJavazip" />
 
-    <Button
-        android:id="@+id/Rxjava"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/btn_get"
-        android:layout_marginTop="15dp"
-        android:text="RXJAVA" />
+
 
 </RelativeLayout>

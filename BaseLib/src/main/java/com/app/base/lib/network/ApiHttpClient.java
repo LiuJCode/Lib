@@ -24,13 +24,13 @@ public class ApiHttpClient {
     private static ApiHttpClient httpClient;
     private static final String TAG = ApiHttpClient.class.getSimpleName();
     // 网络请求协议
-    public static String PROTOCOL_FORMAT = "https://";
+    public static String PROTOCOL_FORMAT = "http://";
     //接口域名
     public static String HOST = "www.duojiao.tv";
     //更换接口只需要改变这部分
     private static String API = "api.php/";
     //baseUrl 必须以斜线结束
-    private static String API_URL = "https://www.duojiao.tv/api.php/";
+    private static String API_URL = "http://www.duojiao.tv/api.php/";
     // 基本参数
     private static String MOD_ACT = "?mod=%s&act=%s";
     public static String TOKEN;

@@ -31,7 +31,7 @@ public class BasePresenterImpl<T extends BaseView, E> implements BasePresenter, 
     }
 
     @Override
-    public void onError(String errorMsg) {
+    public void reError(String errorMsg) {
         if (mView != null) {
             mView.hideProgress();
             mView.showMsg(errorMsg);

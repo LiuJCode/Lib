@@ -1,6 +1,7 @@
 package com.lj.project.newljproject.persenter.imp;
 
 import android.support.annotation.NonNull;
+import android.util.Log;
 
 import com.app.base.lib.bean.DataBean;
 import com.app.base.lib.presenter.BasePresenterImpl;
@@ -11,6 +12,11 @@ import com.lj.project.newljproject.mbean.TestBean;
 import com.lj.project.newljproject.view.TestIView;
 import com.lj.project.newljproject.persenter.Testpersenter;
 
+import io.reactivex.Observer;
+import io.reactivex.Scheduler;
+import io.reactivex.android.schedulers.AndroidSchedulers;
+import io.reactivex.disposables.Disposable;
+import io.reactivex.schedulers.Schedulers;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -36,7 +42,7 @@ public class TestpersenterImp extends BasePresenterImpl<TestIView, DataBean> imp
             @Override
             public void onFailure(Call call, Throwable t) {
                 LogFactory.createLog().e("出错");
-                onError("出错");
+                reError("出错");
             }
         });
     }
@@ -57,8 +63,8 @@ public class TestpersenterImp extends BasePresenterImpl<TestIView, DataBean> imp
     }
 
     @Override
-    public void onError(String errorMsg) {
-        super.onError(errorMsg);
+    public void reError(String errorMsg) {
+        super.reError(errorMsg);
     }
 
     @Override

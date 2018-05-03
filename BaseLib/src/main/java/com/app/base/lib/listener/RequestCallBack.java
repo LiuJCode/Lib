@@ -41,5 +41,5 @@ public interface RequestCallBack<T> {
      *@author liujing
      *@describe 请求错误
      */
-    void onError(String errorMsg);
+    void reError(String errorMsg);
 }

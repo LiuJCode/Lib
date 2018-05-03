@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/txt_msg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="429dp"
+        android:gravity="center"
+        android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/btn_Rxjava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="RXJAVA使用" />
+
+    <Button
+        android:id="@+id/btn_Rxjava_Retrofit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_Rxjava"
+        android:layout_marginTop="20dp"
+        android:text="RXJAVA+Retrofit结合使用" />
+
+    <Button
+        android:id="@+id/btn_RxMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_Rxjava_Retrofit"
+        android:layout_marginTop="18dp"
+        android:text="MAP操作符" />
+
+    <Button
+        android:id="@+id/btn_RxZip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_RxMap"
+        android:layout_marginTop="16dp"
+        android:text="ZIP操作符" />
+
+    <Button
+        android:id="@+id/btn_flowable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_RxZip"
+        android:layout_marginTop="19dp"
+        android:text="Flowable操作符" />
+
+    <Button
+        android:id="@+id/button_Rxplugins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_flowable"
+        android:layout_marginTop="21dp"
+        android:text="RxJavaPlugins使用" />
+
+
+</RelativeLayout>

@@ -5,13 +5,14 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name=".MyApplaction"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".activity.TestActivity1">
+        <activity android:name=".activity.TestActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,9 +21,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".activity.MainActivity">
-
-        </activity>
+        <activity android:name=".activity.RxJavaActivityMap"></activity>
+        <activity android:name=".activity.RxjavaActivity2Zip"></activity>
+        <activity android:name=".activity.RxFlowableActivity"></activity>
 
     </application>
 

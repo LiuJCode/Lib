@@ -1,8 +1,10 @@
 package com.lj.project.newljproject.http;
 
 import com.app.base.lib.bean.DataBean;
+import com.lj.project.newljproject.mbean.RxBean;
 import com.lj.project.newljproject.mbean.TestBean;
 
+import io.reactivex.Observable;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Path;
@@ -13,14 +15,12 @@ import retrofit2.http.Path;
  */
 
 public interface UserService {
-    @GET("?mod=User&act=getAll")
-    Call<DataBean<TestBean>> getDataBean();
-    /**
-     * 根据gameID获取对应的用户数据
-     * @param userID
-     * @return call
-     */
-    @GET("?mod=User&act=getUser/{uid}")
-    Call<DataBean<TestBean>> getUser(@Path("uid") String userID);
+    @GET("?mod=Game&act=getAll")
+    Observable<DataBean<TestBean>> gatAll();
 
+    @GET("?mod=Game&act=getAll")
+    Observable<DataBean<TestBean>> gatAllTwo();
+
+    @GET("?mod=Game&act=getAll")
+    Observable<DataBean<RxBean>> gatAllThree();
 }

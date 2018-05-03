@@ -7,6 +7,7 @@ import com.google.gson.GsonBuilder;
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
+import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
@@ -59,6 +60,7 @@ public class RetrofitClient {
                     .create();//使用 gson coverter，统一日期请求格式
             Retrofit retrofit = new Retrofit.Builder()
                     .baseUrl(ApiHttpClient.getApiName())
+                    .addCallAdapterFactory(RxJava2CallAdapterFactory.create()) //使用Retrofit + Rxjava2 必须设置
                     .addConverterFactory(GsonConverterFactory.create(gson))
                     .client(httpClient)
                     .build();
