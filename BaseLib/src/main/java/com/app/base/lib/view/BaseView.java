@@ -4,7 +4,7 @@ import com.app.base.lib.bean.ListData;
 import com.app.base.lib.bean.SociaxItem;
 
 /**
- * Created by hedong on 18/3/17.
+ * Created by LIUJING on 18/3/17.
  * V
  * 操作view
  */

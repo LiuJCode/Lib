@@ -1,5 +1,6 @@
 package com.lj.project.newljproject.activity;
 
+import android.provider.Settings;
 import android.view.View;
 import android.widget.Button;
 
@@ -66,7 +67,6 @@ public class RxFlowableActivity extends BaseActivity{
             @Override
             public void onSubscribe(Subscription s) {
                 s.request(3);
-
             }
 
             @Override

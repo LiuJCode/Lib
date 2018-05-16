@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\222Utils\BaseUtils\Lib\RecyclerCptr\assets"/><source path="D:\222Utils\BaseUtils\Lib\RecyclerCptr\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\222Utils\BaseUtils\Lib\RecyclerCptr\build-types\debug\assets"/></dataSet></merger>

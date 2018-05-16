@@ -15,9 +15,9 @@ import java.util.Locale;
 /**
  * 类说明：配置域名 请求基本地址
  *
- * @author dong.he
- * @version 4.0
- * @date 2015-8-31
+ * @author LIUJING
+ * @version 1.0
+ * @date 2018-4-31
  */
 public class ApiHttpClient {
 
