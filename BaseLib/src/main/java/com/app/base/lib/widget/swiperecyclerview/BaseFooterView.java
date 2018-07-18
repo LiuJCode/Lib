@@ -1,4 +1,4 @@
-package com.app.base.lib.swiperecyclerview;
+package com.app.base.lib.widget.swiperecyclerview;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -8,7 +8,7 @@ import android.widget.FrameLayout;
  * @auther deadline
  * @time   2016/10/22
  */
-public abstract class BaseFooterView extends FrameLayout implements FooterViewListener{
+public abstract class BaseFooterView extends FrameLayout implements FooterViewListener {
 
     public BaseFooterView(Context context) {
         super(context);

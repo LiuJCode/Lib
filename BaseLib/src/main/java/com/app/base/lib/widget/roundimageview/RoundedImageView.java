@@ -14,7 +14,7 @@
 * limitations under the License.
 */
 
-package com.app.base.lib.roundimageview;
+package com.app.base.lib.widget.roundimageview;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

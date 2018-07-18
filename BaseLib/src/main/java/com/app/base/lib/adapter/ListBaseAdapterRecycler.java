@@ -5,8 +5,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
-import com.app.base.lib.bean.ListData;
-import com.app.base.lib.bean.SociaxItem;
+import com.app.base.lib.mbean.ListData;
+import com.app.base.lib.mbean.SociaxItem;
 
 /**
  * recycler adapter 公共类

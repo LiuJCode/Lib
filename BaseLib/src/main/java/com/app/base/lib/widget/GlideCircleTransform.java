@@ -1,4 +1,4 @@
-package com.app.base.lib.activity.widget;
+package com.app.base.lib.widget;
 
 import android.content.Context;
 import android.graphics.Bitmap;

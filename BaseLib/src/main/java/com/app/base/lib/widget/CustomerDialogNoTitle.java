@@ -1,4 +1,4 @@
-package com.app.base.lib.activity.widget;
+package com.app.base.lib.widget;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.TextView;
+
 import com.app.base.lib.R;
 
 public abstract class CustomerDialogNoTitle extends Dialog {

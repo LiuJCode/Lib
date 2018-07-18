@@ -1,6 +1,4 @@
-package com.app.base.lib.bean;
-
-import java.util.List;
+package com.app.base.lib.mbean;
 
 /**
  * Created by Administrator on 2018/2/8.

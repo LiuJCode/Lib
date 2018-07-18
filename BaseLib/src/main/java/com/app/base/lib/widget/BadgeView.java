@@ -1,4 +1,4 @@
-package com.app.base.lib.activity.widget;
+package com.app.base.lib.widget;
 /*
  * BadgeView.java
  * BadgeView

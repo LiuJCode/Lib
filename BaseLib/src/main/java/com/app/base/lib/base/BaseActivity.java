@@ -23,8 +23,8 @@ import android.view.ViewParent;
 import android.view.Window;
 import android.webkit.WebView;
 
-import com.app.base.lib.activity.widget.EmptyLayout;
-import com.app.base.lib.activity.widget.SmallDialog;
+import com.app.base.lib.widget.EmptyLayout;
+import com.app.base.lib.widget.SmallDialog;
 import com.app.base.lib.presenter.BasePresenterImpl;
 import com.app.base.lib.utils.ActivityStack;
 import com.app.base.lib.utils.GildeUtil;

@@ -1,9 +1,8 @@
 package com.lj.project.newljproject.persenter.imp;
 
 import android.support.annotation.NonNull;
-import android.util.Log;
 
-import com.app.base.lib.bean.DataBean;
+import com.app.base.lib.mbean.DataBean;
 import com.app.base.lib.presenter.BasePresenterImpl;
 import com.app.base.lib.utils.LogFactory;
 import com.app.base.lib.view.BaseView;
@@ -12,11 +11,6 @@ import com.lj.project.newljproject.mbean.TestBean;
 import com.lj.project.newljproject.view.TestIView;
 import com.lj.project.newljproject.persenter.Testpersenter;
 
-import io.reactivex.Observer;
-import io.reactivex.Scheduler;
-import io.reactivex.android.schedulers.AndroidSchedulers;
-import io.reactivex.disposables.Disposable;
-import io.reactivex.schedulers.Schedulers;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

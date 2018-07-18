@@ -1,8 +1,6 @@
-package com.app.base.lib.bean;
+package com.app.base.lib.mbean;
 
-import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.List;
 
 public class ListData<T> extends ArrayList {
 //	private static final long serialVersionUID = 12L;

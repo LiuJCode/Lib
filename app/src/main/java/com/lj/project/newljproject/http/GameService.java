@@ -1,12 +1,10 @@
 package com.lj.project.newljproject.http;
 
-import com.app.base.lib.bean.DataBean;
-import com.app.base.lib.network.ApiHttpClient;
+import com.app.base.lib.mbean.DataBean;
 import com.lj.project.newljproject.mbean.TestBean;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
-import retrofit2.http.POST;
 import retrofit2.http.Path;
 
 

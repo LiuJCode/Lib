@@ -14,7 +14,7 @@
 * limitations under the License.
 */
 
-package com.app.base.lib.roundimageview;
+package com.app.base.lib.widget.roundimageview;
 
 import android.annotation.SuppressLint;
 import android.content.res.ColorStateList;
@@ -494,7 +494,7 @@ public class RoundedDrawable extends Drawable {
    * @return the {@link RoundedDrawable} for chaining.
    */
   public RoundedDrawable setCornerRadius(float topLeft, float topRight, float bottomRight,
-      float bottomLeft) {
+                                         float bottomLeft) {
     Set<Float> radiusSet = new HashSet<Float>(4);
     radiusSet.add(topLeft);
     radiusSet.add(topRight);

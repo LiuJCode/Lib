@@ -19,7 +19,7 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.animation.GlideAnimation;
 import com.bumptech.glide.request.target.SimpleTarget;
 import com.bumptech.glide.util.Util;
-import com.app.base.lib.activity.widget.BlurTransformation;
+import com.app.base.lib.widget.BlurTransformation;
 import com.app.base.lib.base.BaseApplication;
 
 import java.io.File;

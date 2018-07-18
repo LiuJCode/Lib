@@ -5,7 +5,7 @@ import android.os.Handler;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.app.base.lib.bean.DataBean;
+import com.app.base.lib.mbean.DataBean;
 import com.app.base.lib.utils.Exceptions;
 
 import java.net.ConnectException;

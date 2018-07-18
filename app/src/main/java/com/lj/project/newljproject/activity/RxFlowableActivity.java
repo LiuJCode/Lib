@@ -1,11 +1,10 @@
 package com.lj.project.newljproject.activity;
 
-import android.provider.Settings;
 import android.view.View;
 import android.widget.Button;
 
 import com.app.base.lib.base.BaseActivity;
-import com.app.base.lib.bean.DataBean;
+import com.app.base.lib.mbean.DataBean;
 import com.app.base.lib.utils.LogFactory;
 import com.lj.project.newljproject.R;
 import com.lj.project.newljproject.mbean.TestBean;

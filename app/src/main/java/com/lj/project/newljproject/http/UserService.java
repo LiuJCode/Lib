@@ -1,13 +1,11 @@
 package com.lj.project.newljproject.http;
 
-import com.app.base.lib.bean.DataBean;
+import com.app.base.lib.mbean.DataBean;
 import com.lj.project.newljproject.mbean.RxBean;
 import com.lj.project.newljproject.mbean.TestBean;
 
 import io.reactivex.Observable;
-import retrofit2.Call;
 import retrofit2.http.GET;
-import retrofit2.http.Path;
 
 
 /**

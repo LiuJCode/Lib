@@ -1,7 +1,6 @@
 package com.app.base.lib.view;
 
-import com.app.base.lib.bean.ListData;
-import com.app.base.lib.bean.SociaxItem;
+import com.app.base.lib.mbean.SociaxItem;
 
 /**
  * Created by LIUJING on 18/3/17.

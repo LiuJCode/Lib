@@ -1,11 +1,6 @@
 package com.lj.project.newljproject.mbean;
 
-import com.app.base.lib.bean.DataBean;
-import com.app.base.lib.bean.ListData;
-import com.app.base.lib.bean.SociaxItem;
-
-import java.io.Serializable;
-import java.util.List;
+import com.app.base.lib.mbean.DataBean;
 
 /**
  * Created by Administrator on 2018/3/29.

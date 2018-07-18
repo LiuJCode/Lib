@@ -1,4 +1,4 @@
-package com.app.base.lib.swiperecyclerview;
+package com.app.base.lib.widget.swiperecyclerview;
 
 /**
  * @author deadline

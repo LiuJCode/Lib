@@ -1,6 +1,6 @@
 package com.lj.project.newljproject.view;
 
-import com.app.base.lib.bean.DataBean;
+import com.app.base.lib.mbean.DataBean;
 import com.app.base.lib.view.BaseView;
 
 /**

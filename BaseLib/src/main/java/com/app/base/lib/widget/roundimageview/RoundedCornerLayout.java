@@ -1,4 +1,4 @@
-package com.app.base.lib.roundimageview;
+package com.app.base.lib.widget.roundimageview;
 
 import android.content.Context;
 import android.graphics.Bitmap;

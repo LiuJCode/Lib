@@ -9,9 +9,9 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.app.base.lib.activity.widget.SmallDialog;
+import com.app.base.lib.widget.SmallDialog;
 import com.app.base.lib.base.BaseActivity;
-import com.app.base.lib.bean.DataBean;
+import com.app.base.lib.mbean.DataBean;
 import com.lj.project.newljproject.R;
 import com.lj.project.newljproject.persenter.imp.TestpersenterImp;
 import com.lj.project.newljproject.view.TestIView;

@@ -1,4 +1,4 @@
-package com.app.base.lib.activity.widget;
+package com.app.base.lib.widget;
 
 import android.annotation.TargetApi;
 import android.content.Context;

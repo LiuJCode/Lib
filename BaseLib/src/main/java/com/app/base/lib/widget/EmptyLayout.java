@@ -1,4 +1,4 @@
-package com.app.base.lib.activity.widget;
+package com.app.base.lib.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -9,6 +9,7 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
 import com.app.base.lib.R;
 import com.app.base.lib.utils.UnitSociax;
 
